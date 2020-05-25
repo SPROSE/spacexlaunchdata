@@ -1,0 +1,27 @@
+/* Year custom styles */
+
+
+.dropdownListContainer {
+  position: absolute;
+  background: #fff;
+  width: 98%;
+  text-align: left;
+  border: 1px solid #215184;
+}
+
+.dropdown-list {
+  margin: 10px 5px 10px;
+}
+
+.dropdown-entry {
+  border-bottom: 1px solid #eee;
+  pointer-events: visible;
+  cursor: pointer;
+  padding: 3px 0;
+  width: 85%;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+

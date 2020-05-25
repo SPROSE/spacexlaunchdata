@@ -1,0 +1,180 @@
+
+  // Visual scale
+  p {
+    margin: 0;
+  }
+
+  p + p {
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 2.75rem 0 1rem;
+    font-weight: 600;
+    line-height: 1.15;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:only-child {
+      margin: 0;
+    }
+  }
+
+  h1,
+  .size-h1 {
+    margin-top: 0;
+    font-size: 2.72rem;
+    line-height: 1.158em;
+
+    @include md {
+      font-size: 2.625rem;
+      line-height: 1.145em;
+    }
+  }
+
+  h2,
+  .size-h2 {
+    font-size: 2.074em;
+    @include md {
+      font-size: 2em;
+      line-height: 1.189em;
+    }
+  }
+
+  h3,
+  .size-h3 {
+    font-size: 1.575em;
+    line-height: 1.27em;
+
+    @include md {
+      font-size: 1.63em;
+      line-height: 1.23em;
+    }
+  }
+
+  h4,
+  .size-h4 {
+    font-size: 1.287em;
+    line-height: 1.335em;
+    @include md {
+      font-size: 1.25em;
+      line-height: 1.3em;
+    }
+  }
+
+  h5,
+  .size-h5 {
+    font-size: 1.2em;
+    @include md {
+      font-size: 1.125rem;
+      line-height: 1.338em;
+    }
+  }
+
+  .page-title {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0 0 0 -10px;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  small,
+  .small {
+    font-size: 0.833em;
+  }
+
+
+
+  // Links
+  a,
+  button {
+    cursor: pointer;
+  }
+
+  a,
+  button:not([class^='btn']) {
+    color: $primary-blue;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: 0.8;
+    }
+  }
+
+  // Lists
+  ul {
+    padding-left: 10px;
+    list-style-type: none;
+  }
+
+  // Button
+  button {
+    background-color: $primary-blue;
+    border: none;
+    font-weight: 500;
+    padding: 7px;
+    color: $white;
+    font-size: 14px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: 0.8;
+    }
+  }
+
+  // Images
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  // Utils
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-top: 1px solid #ddd;
+
+    @include md {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    @include lg {
+      margin-top: 42px;
+      margin-bottom: 42px;
+    }
+  }
+
+  // Icons
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 11px;
+    margin: 0 0 0 5px;
+  }

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Year /> with dropdown should match the snapshot 1`] = `"<div class=\\"relative inline\\"><button class=\\"btn\\">Filter by Year <img src=\\"select.png\\" class=\\"icon\\" alt=\\"select year\\"/></button><div class=\\"dropdownListContainer\\"><ul class=\\"dropdown-list\\"><li class=\\"dropdown-entry\\">2006</li><li class=\\"dropdown-entry\\">2007</li><li class=\\"dropdown-entry\\">2008</li><li class=\\"dropdown-entry\\">2009</li></ul></div></div>"`;
+
+exports[`<Year /> with props should match the snapshot 1`] = `"<div class=\\"relative inline\\"><button class=\\"btn\\">Filter by Year <img src=\\"select.png\\" class=\\"icon\\" alt=\\"select year\\"/></button></div>"`;

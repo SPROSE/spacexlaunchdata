@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LaunchList /> with no spacexData should match the snapshot without launch data 1`] = `"<ul class=\\"launch-list\\"></ul>"`;
+
+exports[`<LaunchList /> with spacexData should match the snapshot with launch data 1`] = `"<ul class=\\"launch-list\\"><li class=\\"launch-entry\\"><div class=\\"flight-no inline\\">#123</div><div class=\\"mission-name inline\\">Apollo</div><div class=\\"inline mid pull-right\\"><div class=\\"launch-date align-right\\">May 24, 2020</div><div class=\\"rocket-name align-right\\">Rocket-1</div></div></li></ul>"`;

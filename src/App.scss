@@ -1,0 +1,47 @@
+@import './global/base/index.scss';
+
+/* Header Custom Styles */
+.app-header {
+  padding: 20px 0 60px;
+}
+
+.logo {
+  pointer-events: visible;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+.reload-btn {
+  padding-left: 10px;
+  border-radius: 25px 0 0 25px;
+}
+
+.spacex-image {
+  max-width: 100%;
+}
+
+.left-image-rocket {
+  @include md {
+    display: none;
+  }
+  @include sm {
+    display: none;
+  }
+  @include sm-only {
+    display: none;
+  }
+}
+
+.launch-data {
+  @include md {
+    width: 100%!important;
+  }
+  @include sm {
+    width: 100%!important;
+  }
+  @include sm-only {
+    width: 100%!important;
+  }
+}
+
+
